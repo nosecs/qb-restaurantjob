@@ -160,7 +160,17 @@ Consumeables = {
 
 ```Example for - qb-core/shared.lua```
 ```
-	['cheese-pizza'] 			     = {['name'] = 'cheese-pizza', 					['label'] = 'Cheese Pizza', 				['weight'] = 400, 		['type'] = 'item', 		['image'] = 'cheese-pizza.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Delicious Cheese Pizza'},
+['cheese-pizza'] 			     = {['name'] = 'cheese-pizza', 					['label'] = 'Cheese Pizza', 				['weight'] = 400, 		['type'] = 'item', 		['image'] = 'cheese-pizza.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['cut-bellpepper'] 			     = {['name'] = 'cut-bellpepper', 				['label'] = 'Cut Bellpepper', 				['weight'] = 20, 		['type'] = 'item', 		['image'] = 'cut-bellpepper.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['cut-mushroom'] 			     = {['name'] = 'cut-mushroom', 					['label'] = 'Cut Mushroom', 				['weight'] = 20, 		['type'] = 'item', 		['image'] = 'cut-mushroom.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['cut-onion'] 			     	 = {['name'] = 'cut-onion', 					['label'] = 'Cut Onion', 					['weight'] = 20, 		['type'] = 'item', 		['image'] = 'cut-onion.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['cut-tomato'] 			     	 = {['name'] = 'cut-tomato', 					['label'] = 'Cut Tomato', 					['weight'] = 20, 		['type'] = 'item', 		['image'] = 'cut-tomato.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['pizza-dough'] 			     = {['name'] = 'pizza-dough', 					['label'] = 'Pizza Dough', 					['weight'] = 20, 		['type'] = 'item', 		['image'] = 'pizza-dough.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['pizza-sauce'] 			     = {['name'] = 'pizza-sauce', 					['label'] = 'Pizza Sauce', 					['weight'] = 20, 		['type'] = 'item', 		['image'] = 'pizza-sauce.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['cheese'] 			    		 = {['name'] = 'cheese', 						['label'] = 'Pizza Sauce', 					['weight'] = 20, 		['type'] = 'item', 		['image'] = 'cheese.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['salt'] 			    		 = {['name'] = 'salt', 							['label'] = 'Salt', 						['weight'] = 20, 		['type'] = 'item', 		['image'] = 'salt.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['yeast'] 			    		 = {['name'] = 'yeast', 						['label'] = 'Yeast', 						['weight'] = 20, 		['type'] = 'item', 		['image'] = 'yeast.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
+	['flour'] 			    		 = {['name'] = 'flour', 						['label'] = 'Flour', 						['weight'] = 20, 		['type'] = 'item', 		['image'] = 'flour.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
 
 ```
 
