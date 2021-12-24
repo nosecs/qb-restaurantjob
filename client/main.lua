@@ -99,7 +99,7 @@ end)
 --QB Menu Option --
 
 --[[RegisterNetEvent(Config.FolderName..":client:OpenMenu")
-AddEventHandler(Config.FolderName..:client:OpenMenu", function(config)
+AddEventHandler(Config.FolderName..":client:OpenMenu", function(config)
     local restaurantMenu = {}
     for k, v in pairs(config) do
         table.insert(restaurantMenu, {
