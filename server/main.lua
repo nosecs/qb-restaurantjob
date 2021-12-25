@@ -7,7 +7,7 @@ QBCore.Functions.CreateCallback(Config.FolderName..':server:get:ingredient', fun
     local hasItems = true
     for k, v in pairs(items) do
         if Ply.Functions.GetItemByName(items[k].itemName) ~= nil then
-            hasItems = hasItems and (Ply.Functions.GetItemByName(items[k].itemName).amount == items[k].amount)
+            hasItems = hasItems and (Ply.Functions.GetItemByName(items[k].itemName).amount >= items[k].amount)
         else
             hasItems = hasItems and false 
         end
