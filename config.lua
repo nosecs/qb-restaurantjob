@@ -9,11 +9,11 @@ Config.Locations = {
     [2] = {coords = vector3(809.89, -761.22, 26.78), text = "Prep Station", config = Prep},
     [3] = {coords = vector3(806.64, -757.7, 26.78), text = "Dough Station", config = Dough},
     [4] = {coords = vector3(813.29, -752.98, 26.78), text = "Pizza Oven", config = PizzaOven},
-    [5] = {coords = vector3(814.72, -760.01, 22.3), text = "Cheese", config = Cheese},
-    [6] = {coords = vector3(812.05, -754.57, 26.78), text = "Making", config = Make},
-    [7] = {coords = vector3(806.35, -763.18, 26.78), text = "Oven", config = Oven},
-    [8] = {coords = vector3(807.67, -760.1, 26.78), text = "Stove", config = Stove},
-    [9] = {coords = vector3(810.33, -764.59, 26.78), text = "Dessert Station", config = Dessert},
+    [5] = {coords = vector3(812.05, -754.57, 26.78), text = "Making", config = Make},
+    [6] = {coords = vector3(806.35, -763.18, 26.78), text = "Oven", config = Oven},
+    [7] = {coords = vector3(807.67, -760.1, 26.78), text = "Stove", config = Stove},
+    [8] = {coords = vector3(810.33, -764.59, 26.78), text = "Dessert Station", config = Dessert},
+    --[9] = {coords = vector3(814.72, -760.01, 22.3), text = "Cheese", config = Cheese},
 }
 					 
 Config.JobStash = {
