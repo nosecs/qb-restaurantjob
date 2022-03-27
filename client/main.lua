@@ -72,6 +72,7 @@ end)
 --Oven station--
 
 --NH CONTEXT--
+--[[
 RegisterNetEvent(Config.FolderName..":client:OpenMenu")
 AddEventHandler(Config.FolderName..":client:OpenMenu", function(config)
     for k, v in pairs(config) do
@@ -95,10 +96,10 @@ AddEventHandler(Config.FolderName..":client:OpenMenu", function(config)
         })
     end 
 end)
-
+--]]
 --QB Menu Option --
 
---[[RegisterNetEvent(Config.FolderName..":client:OpenMenu")
+RegisterNetEvent(Config.FolderName..":client:OpenMenu")
 AddEventHandler(Config.FolderName..":client:OpenMenu", function(config)
     local restaurantMenu = {}
     for k, v in pairs(config) do
@@ -119,7 +120,7 @@ AddEventHandler(Config.FolderName..":client:OpenMenu", function(config)
         })
     end
     exports['qb-menu']:openMenu(restaurantMenu) 
-end)]]--
+end)
 
 RegisterNetEvent(Config.FolderName..":menu:AllStations")
 AddEventHandler(Config.FolderName..":menu:AllStations", function(data)
